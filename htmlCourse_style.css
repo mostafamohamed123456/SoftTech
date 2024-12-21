@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/*General Styles*/
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#efefef;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+::-webkit-scrollbar{
+    background-color: #111111;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #04AA6D;
+    border-radius:3px
+}
+/* End of General Styles */
+
+/* Common Styles */
+.clear{
+    clear:both;
+}
+.section-heading{
+    padding:10px;
+    text-transform:capitalize;
+    letter-spacing:3px;
+    width:fit-content;
+    margin:0 auto;
+    color:#111;
+    font-size:23px;
+    position:relative;
+}
+.section-heading::after{
+    position: absolute;
+    width: 50%;
+    content: '';
+    background: #333;
+    bottom: 0;
+    left: 50%;
+    height: 4px;
+    transform: translate(-50%, 0%);
+}
+.section-article{
+    width:50%;
+    color:#000;
+    margin: 5px auto;
+    text-align: center;
+    font-size:19px;
+    text-transform: capitalize;
+}
+.mg-top{
+    margin-top: 30px;
+}
+.mg-topDou{
+    margin-top: 60px;
+}
+.mg-botDou{
+    margin-bottom: 60px;
+}
+.overlay{
+    position:absolute;
+    background-color:#000;
+    opacity: .8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    border-radius:15px;
+}
+/* End of Common Styles */
+
+/* Course Container */
+.course-container .course-content .side-navbar{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    padding: 106px 5px 0;
+}
+.course-container .course-content .side-navbar .side-navbar-course-list {
+    overflow: auto;
+}
+.course-container .course-content .side-navbar h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.side-navbar-course-list li{
+    padding: 5px 10px;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    cursor:pointer;
+    text-transform: capitalize;;
+}
+.side-navbar-course-list li span{
+    text-transform: uppercase;
+}
+.side-navbar-course-list li:hover{
+    background:#04AA6D;
+    color:#FEFEFE;
+}
+
+.course-container .course-content .content{
+    background-color: #FFFFFF;
+    position: fixed;
+    left: 250px;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 250px);
+    overflow-y: scroll;
+    border:none;
+    padding:106px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content .what-is-html{
+    padding:10px;
+}
+.content .what-is-html .content-header{
+    padding:10px;
+    text-transform:capitalize;
+    letter-spacing:1.5px;
+}
+.detail-html{
+    padding:10px;
+}
+.detail-html li{
+    margin:10px 0;
+}
+.ex-header{
+    text-transform:capitalize
+}
+.content .img-ex{
+    width:600px;
+    height:300px;
+    border-radius:9px;
+    display:block;
+    margin:10px auto;
+}
+.desc-detail {
+    display:flex;
+    margin:10px;
+}
+.desc-detail > span{
+    font-weight:600;
+    margin-right:8px;
+    font-size: 18px;;
+}
+.desc-detail > p{
+    text-transform:capitalize;
+    overflow: hidden;
+}
+table{
+    margin:5px auto;
+    width:100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th{
+    border:1px solid #333;
+    text-transform: capitalize;
+    padding:5px;;
+}
+table td{
+    border-bottom:1px solid #333;
+    border-left:1px solid #333;
+    border-right:1px solid #333;
+}
+
+.ex-code .images-two-examples{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ex-code .images-two-examples img{
+    width:450px;
+    height:250px;
+}
+.js-quot-class{
+    text-transform:none;
+}
+
+.hide{
+    display: none;;
+}
+/* End of Course Container */
+
+.img-fullscreen-container{
+    position: absolute;
+    background:rgba(0,0,0,.9);
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+.img-fullscreen-container button{
+    position: absolute;
+    right: 130px;
+    cursor: pointer;
+    top: 120px;
+    font-size: 35px;
+    background: rgb(25 25 25);
+    color: #FFF;
+    border: none;
+}
+.img-fullscreen-container img{
+    width: 700px;
+    display: block;
+    margin: 144px auto;
+}
+.hide-container{
+    display: none;;
+}

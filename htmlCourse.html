@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course</title>
+    <link rel="stylesheet" href="css/htmlCourse_style.css">
+    <link rel="icon" type="/image/x-icon" href="images/logo2.ico">
+</head>
+<body>
+    <!-- Course Content-->
+    <div class="course-container">
+        <div class="course-content">
+            <nav class="side-navbar">
+                <h3 class="course-title"><span id="course-title">html</span> tutorial</h3>
+                <ul class="side-navbar-course-list hide-respon">
+                    <li id="0">what is HTML?</li>
+                    <li id="1"><span class="course-name">html</span> attribute</li>
+                    <li id="2"><span class="course-name">html</span> elements</li>
+                    <li id="3"><span class="course-name">html</span> headings</li>
+                    <li id="4"><span class="course-name">html</span> paragraph</li>
+                    <li id="5"><span class="course-name">html</span> phrase tag</li>
+                    <li id="6"><span class="course-name">html</span> links</li>
+                    <li id="7"><span class="course-name">html</span> image</li>
+                    <li id="8"><span class="course-name">html</span> favicon</li>
+                    <li id="9"><span class="course-name">html</span> page title</li>
+                    <li id="10"><span class="course-name">html</span> div</li>
+                    <li id="11"><span class="course-name">html</span> file path</li>
+                    <li id="12"><span class="course-name">html</span> unorder lists</li>
+                    <li id="13"><span class="course-name">html</span> order lists</li>
+                    <li id="14"><span class="course-name">html</span> classes</li>
+                    <li id="15"><span class="course-name">html</span> ID </li>
+                    <li id="16"><span class="course-name">html</span> iframe</li>
+                    <li id="17"><span class="course-name">html</span> style using CSS</li>
+                    <li id="18"><span class="course-name">html</span> javascript</li>
+                    <li id="19"><span class="course-name">html</span> comments</li>
+                    <li id="20"><span class="course-name">html</span> head</li>
+                <h3 class="course-title"><span id="course-title">html</span> form</h3>
+                    <li id="21"><span class="course-name">html</span> form</li>
+                    <li id="22"><span class="course-name">html</span> form input types</li>
+                    <li id="23"><span class="course-name">html</span> form attributes</li>
+                <h3 class="course-title"><span id="course-title">html</span> media</h3>
+                    <li id="24"><span class="course-name">html</span> video</li>
+                    <li id="25"><span class="course-name">html</span> audio</li>
+                    <li id="26"><span class="course-name">html</span> media</li>
+                    <li id="27"><span class="course-name">html</span> plugs-in</li>
+                    <li id="28"><span class="course-name">html</span> youTube</li>
+                </ul>
+            </nav>
+
+            <!-- Course Content-->
+            <div class="content">
+
+                <div class="what-is-html" id="0"><!--What is HTML-->
+                    <h1 class="content-header">What is html?</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML refers to hypertext markup language</li>
+                        <li>HTML is the structure of website</li>
+                        <li>Hypertext means “text within text”, which means any text you click on it open another webpage.</li>
+                        <li>Markup Language it means a computer language that is used to apply layout and formatting conventions to a text document.</li>
+                    </ol>
+                    <div class="ex-html-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML. </h3>
+                        <img src="images/ex1.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of HTML Example</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;!DOCTYPE&gt;</span>
+                                <p class="desc-tag-name">It defines the document type or it instruct the browser about the version of HTML.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;html&gt;</span>
+                                <p class="desc-tag-name">this tag informs the browser that it is an HTML document.it is the container for all other elements expect &lt;!DOCTYPE&gt; </p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;head&gt;</span>
+                                <p class="desc-tag-name">it should be the first element of the html document inside the &lt;html&gt; element.it must be closed before the body tag opens.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;body&gt;</span>
+                                <p class="desc-tag-name">it contains the main content of the HTML document.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;h1&gt;</span>
+                                <p class="desc-tag-name">text between &lt;h1&gt; describes he first level heading of the webpage.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;p&gt;</span>
+                                <p class="desc-tag-name">text between &lt;p&gt; describes the paragraph of the webpage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./What is HTML-->
+                <div class="hide html-attribute" id="1"><!--HTML Attributes-->
+                    <h1 class="content-header">HTML Attribute</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML attribute are special words that are used within tags or elements to define the behaviour of that element.</li>
+                        <li>you can add multiple attributes within one element.</li>
+                        <li>HTML attributes name and values are case sensitive, and it is recommended to be written in lower case. </li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML attribute. </h3>
+                        <img src="images/ex2.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of HTML Attribute Example</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;img&gt;</span>
+                                <p class="desc-tag-name">It defines the image element within html document.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">src</span>
+                                <p class="desc-tag-name">it used to get the path of any image, audio or video.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">alt</span>
+                                <p class="desc-tag-name">it usually used to define the image if the src of he image is corrupted. </p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">title</span>
+                                <p class="desc-tag-name">it defines the element while standing over the element.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./HTML Attributes-->
+                <div class="hide html-element" id="2"><!--HTML Elements-->
+                    <h1 class="content-header">HTML Elements</h1>
+                    <ol class="detail-html" type="1">
+                        <li>An HTML element is an individual component of an HTML File. Everything writing within tags are termed as HTML elements. </li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML element. </h3>
+                        <img src="images/ex3.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Block and Inline HTML Elements</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">Block Elements</span>
+                                <p class="desc-tag-name">it strats with new line and akes the full width of web page, form left to right.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">inline elements</span>
+                                <p class="desc-tag-name">it's not started with new line and take width as per requirement.</p>
+                            </div>
+                            <h2 class="inline-block-header">Here's some elements</h2>
+                            <table>
+                                <thead>
+                                    <th>inline elements</th>
+                                    <th>block elements</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>&lt;a&gt;</td><!--Inline-->
+                                        <td>&lt;p&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;img&gt;</td><!--Inline-->
+                                        <td>&lt;div&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;input&gt;</td><!--Inline-->
+                                        <td>&lt;article&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;button&gt;</td><!--Inline-->
+                                        <td>&lt;aside&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;big&gt;</td><!--Inline-->
+                                        <td>&lt;address&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;b&gt;</td><!--Inline-->
+                                        <td>&lt;blockquote&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;cite&gt;</td><!--Inline-->
+                                        <td>&lt;canvas&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;label&gt;</td><!--Inline-->
+                                        <td>&lt;dd&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;map&gt;</td><!--Inline-->
+                                        <td>&lt;fieldset&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;select&gt;</td><!--Inline-->
+                                        <td>&lt;figure&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;small&gt;</td><!--Inline-->
+                                        <td>&lt;footer&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;strong&gt;</td><!--Inline-->
+                                        <td>&lt;form&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;sub&gt;</td><!--Inline-->
+                                        <td>&lt;hr&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;sup&gt;</td><!--Inline-->
+                                        <td>&lt;li&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;textarea&gt;</td><!--Inline-->
+                                        <td>&lt;main&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;time&gt;</td><!--Inline-->
+                                        <td>&lt;nav&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;tt&gt;</td><!--Inline-->
+                                        <td>&lt;ol&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;var&gt;</td><!--Inline-->
+                                        <td>&lt;ul&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;span&gt;</td><!--Inline-->
+                                        <td>&lt;output&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;small&gt;</td><!--Inline-->
+                                        <td>&lt;section&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;script&gt;</td><!--Inline-->
+                                        <td>&lt;table&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;object&gt;</td><!--Inline-->
+                                        <td>&lt;tfoot&gt;</td><!--Block-->
+                                    </tr>
+                                    <tr>
+                                        <td>&lt;kbd&gt;</td><!--Inline-->
+                                        <td>&lt;video&gt;</td><!--Block-->
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- ./HTML Elements-->
+                <div class="hide html-headings" id="3"><!--HTML Headings-->
+                    <h1 class="content-header">HTML Headings</h1>
+                    <ol class="detail-html" type="1">
+                        <li><b>HTML Heading</b> or HTML h tag can be defiend as the title or subtitle which you want to display on the webpage. When you place the text within the heading tags &lt;h1&gt;.......&lt;/h1&gt; it is displayed on he browser in the bold format and size of text depends on the number of headings.</li>
+                        <li>there are six different <b>HTML Heading</b> which are defined with the &lt;h1&gt; to &lt;h6&gt; tags, from highest level h1 (main heading) to the least level h6 (least important heading).</li>
+                        <li><strong>Headings in HTML helps the search engine to understand and index the structure of web page.</strong></li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML headings. </h3>
+                        <img src="images/ex4.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Headings-->
+                <div class="hide html-paragraph" id="4"><!--HTML Paragraph-->
+                    <h1 class="content-header">HTML Paragraph</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML paragraph pr HTML p tag is used to define a paragraph in a webpage.</li>
+                        <li>It is a notable point that a browser itself add an empty line before and after a paragraph.</li>
+                        <li>if we are using various &lt;p&gt; tags in one HTML File then browser automatically adds a single blank line between the two paragraphs.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML Paragraph. </h3>
+                        <img src="images/ex5.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">space inside HTML Paragraph. </h3>
+                        <img src="images/ex6.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">How to use &lt;br&gt; tag with paragraph?</h3>
+                        <img src="images/ex7.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">How to use &lt;hr&gt; tag with paragraph?</h3>
+                        <img src="images/ex8.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Paragraph-->
+                <div class="hide html-Pharse-tag" id="5"><!--HTML Pharse Tag-->
+                    <h1 class="content-header">HTML Pharse tag</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML pharse tag are special purpose tags, which defines the structural ,meaning of a block of text or semantics of text.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF strong tag. </h3>
+                        <img src="images/ex9.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of Strong tag</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;strong&gt;</span>
+                                <p class="desc-tag-name">It is showing the text that is written between strong tag in bold format.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF mark tag. </h3>
+                        <img src="images/ex10.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of mark tag</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;mark&gt;</span>
+                                <p class="desc-tag-name">Any word or sentance is written between the mark tag is showed in highlight form. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF emphasized tag.</h3>
+                        <img src="images/ex11.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of emphasized tag</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">&lt;em&gt;</span>
+                                <p class="desc-tag-name">it shows that any text that is written between the em tag is showed in italic form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./HTML Pharse Tag-->
+                <div class="hide html-Anchor-tag" id="6"><!--HTML Anchor Tag-->
+                    <h1 class="content-header">HTML Anchor Tag</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML anchor tag or knowen as link tag it used to make a hyperlink.</li>
+                        <li>HTML anchor tag is used to link one webpage with another page.</li>
+                        <li>The <q>href</q> and <q>target</q> attributes are the most used attributes in link tag.</li>
+                        <li>HTML anchor tag is an inline element.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF anchor tag. </h3>
+                        <img src="images/ex12.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of Anchor tag attributes</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">href</span>
+                                <p class="desc-tag-name">Attribute is used to make the a hyperlink it can be url, files, locations, or other webpage.</p>
+                            </div>
+                            <h3>Let's see types of url</h3>
+                            <table>
+                                <thead>
+                                    <th>absolute url</th>
+                                    <th>relative url</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>full webpage address need https://www.</td>
+                                        <td>no need to https://www. </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="ex-code">
+                                <h3 class="ex-header">let's see a simple example oF absolute url. </h3>
+                                <img src="images/ex13.png" alt="html-code-example" class="img-ex">
+                            </div>
+                            <div class="ex-code">
+                                <h3 class="ex-header">let's see a simple example oF relative url. </h3>
+                                <img src="images/ex14.png" alt="html-code-example" class="img-ex">
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">Target</span>
+                                <p class="desc-tag-name">Attribute is used to control where the anchorlink will be opend.</p>
+                            </div>
+
+                            <ul class="target-types">
+                                <li class="desc-detail">
+                                    <span class="tag-name">_self</span>
+                                    <p class="desc-tag-name">Default. Opens the document in the same window/tab as it was clicked</p>
+                                </li>
+                                <li class="desc-detail">
+                                    <span class="tag-name">_blank </span>
+                                    <p class="desc-tag-name">Opens the document in a new window or tab</p>
+                                </li>
+                                <li class="desc-detail">
+                                    <span class="tag-name">_parent</span>
+                                    <p class="desc-tag-name">Opens the document in the parent frame</p>
+                                </li>
+                                <li class="desc-detail">
+                                    <span class="tag-name">_top</span>
+                                    <p class="desc-tag-name">Opens the document in the full body of the window</p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div><!-- ./HTML Anchor Tag-->
+                <div class="hide html-image-tag" id="7"><!-- HTML Images-->
+                    <h1 class="content-header">HTML Image Tag</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML image tag is used to insert images to webpage.</li>
+                        <li>Image tag is non closed tag.</li>
+                        <li>The most attributes are used by image tag are <q>src,</q> <q>alt,</q> <q>width,</q> & <q>height</q></li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF image tag. </h3>
+                        <img src="images/ex15.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Description of image tag</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">src</span>
+                                <p class="desc-tag-name">Attribute is used to get the path of the image to the webpage.</p>
+                            </div>
+                            <h3>src can be one the following</h3>
+                            <div class="desc-detail">
+                                <span class="tag-name">in the same folder</span>
+                                <p class="desc-tag-name">which means the image is side by side html file</p>
+                            </div>
+                            <div class="ex-code">
+                                <h3 class="ex-header">let's see a simple example oF src as side by side </h3>
+                                <img src="images/ex16.png" alt="html-code-example" class="img-ex">
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">folder next to html file</span>
+                                <p class="desc-tag-name">which means the image is inside another folder next to html file</p>
+                            </div>
+                            <div class="ex-code">
+                                <h3 class="ex-header">let's see a simple example oF src as next folder </h3>
+                                <img src="images/ex17.png" alt="html-code-example" class="img-ex">
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">url</span>
+                                <p class="desc-tag-name">which means the image is on the internet and we get its url https://www</p>
+                            </div>
+                            <div class="ex-code">
+                                <h3 class="ex-header">let's see a simple example oF src as url </h3>
+                                <img src="images/ex18.png" alt="html-code-example" class="img-ex">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div><!-- ./HTML Images-->
+                <div class="hide html-favicon-tag" id="8"><!-- HTML Favicon-->
+                    <h1 class="content-header">HTML Favicon</h1>
+                    <ol class="detail-html" type="1">
+                        <li>Favicon is used to make a logo to your webpage on the browser tab.</li>
+                        <li>Favicon is called from the &lt;link&gt; tag in the &lt;head&gt; tag. </li>
+                        <li>The most attributes are used with favicon are <q>rel</q>, <q>type</q>, & <q>href</q> </li>
+                        <li>you can use <a href="https://www.favicon.cc/">https://www.favicon.cc/</a> to create your owen favicon.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF Favicon. </h3>
+                        <img src="images/ex19.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Favicon-->
+                <div class="hide html-page-title" id="9"><!-- HTML page title-->
+                    <h1 class="content-header">HTML Page Title</h1>
+                    <ol class="detail-html" type="1">
+                        <li>Every web page should have a page title to describe the meaning of the page. </li>
+                        <li>The &lt;title&gt; element adds title to your webpage.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF page title </h3>
+                        <img src="images/ex20.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML page title-->
+                <div class="hide html-div-tag" id="10"><!-- HTML DIV Tag-->
+                    <h1 class="content-header">HTML Div Tag</h1>
+                    <ol class="detail-html" type="1">
+                        <li>The &lt;div&gt; element is used as a container for other HTML elements.</li>
+                        <li>The &lt;div&gt; element is a block element, which take the full width.</li>
+                        <li>The &lt;div&gt; element has no required attributes, but style, class and id are common.</li>
+                        <li>To center the &lt;div&gt; element you have to ensure that the width isn't 100% and margin:auto</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF Div element </h3>
+                        <img src="images/ex21.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML DIV Tag-->
+                <div class="hide html-file-path" id="11"><!-- HTML File Path-->
+                    <h1 class="content-header">File Path</h1>
+                    <ol class="detail-html" type="1">
+                        <li>A file path describes the location of a file in a web site's folder structure.</li>
+                    </ol>
+                    <table>
+                        <thead>
+                            <th>path</th>
+                            <th>description</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;img src="picture.jpg"&gt;</td>
+                                <td>The "picture.jpg" file is located in the same folder as the current page</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;img src="images/picture.jpg"&gt;</td>
+                                <td>The "picture.jpg" file is located in the images folder in the current folder</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;img src="/images/picture.jpg"&gt;</td>
+                                <td>The "picture.jpg" file is located in the images folder at the root of the current web</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;img src="../picture.jpg"&gt;</td>
+                                <td>The "picture.jpg" file is located in the folder one level up from the current folder</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- ./HTML File Path-->
+                <div class="hide html-Unordered-List" id="12"><!-- HTML Unordered List-->
+                    <h1 class="content-header">HTML Unordered list</h1>
+                    <ol class="detail-html" type="1">
+                        <li>The HTML &lt;ul&gt; tag defines an unordered (bulleted) list.</li>
+                        <li>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF Unordered List </h3>
+                        <div class="images-two-examples">
+                            <img src="images/ex22.png" alt="html-code-example" class="img-ex">
+                            <img src="images/ex23.png" alt="html-code-example" class="img-ex two-examples-img">
+                        </div>
+                        
+                    </div>
+                </div><!-- ./HTML Unordered List-->
+                <div class="hide html-ordered-List" id="13"><!-- HTML Ordered List-->
+                    <h1 class="content-header">HTML Ordered list</h1>
+                    <ol class="detail-html" type="1">
+                        <li>The HTML &lt;ol&gt; tag defines an ordered list. An ordered list can be numerical or alphabetical.</li>
+                        <li>An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF Unordered List </h3>
+                        <div class="images-two-examples">
+                            <img src="images/ex24.png" alt="html-code-example" class="img-ex">
+                            <img src="images/ex25.png" alt="html-code-example" class="img-ex two-examples-img">
+                        </div>
+                        
+                    </div>
+                </div><!-- ./HTML Ordered List-->
+                <div class="hide html-classes" id="14"><!-- HTML Classes-->
+                    <h1 class="content-header">HTML classes</h1>
+                    <ol class="detail-html" type="1">
+                        <li>The HTML class attribute is used to specify a class for an HTML element.</li>
+                        <li>Multiple HTML elements can share the same class.</li>
+                        <li>The class attribute is often used to point to a class name in a style sheet.</li>
+                        <li>It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML classes </h3>
+                        <img src="images/ex28.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">HTML Elements Can have multiple classes </h3>
+                        <img src="images/ex31.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Elements can have the same class </h3>
+                        <div class="images-two-examples">
+                            <img src="images/ex29.png" alt="html-code-example" class="img-ex">
+                            <img src="images/ex30.png" alt="html-code-example" class="img-ex">
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Notes of HTML classes</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML Class</span>
+                                <p class="desc-tag-name">can be used in both CSS Style and Javascript</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">Same HTML Class</span>
+                                <p class="desc-tag-name">name can be pointed in multiple elements</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML Class</span>
+                                <p class="desc-tag-name">can be multiple class in one element</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML Class</span>
+                                <p class="desc-tag-name">are called in javascipt using <q class="js-quot-class"> getElementsByClassNames() </q></p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML Class</span>
+                                <p class="desc-tag-name">are case sensitive.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./HTML Classes-->
+                <div class="hide html-id" id="15"><!-- HTML ID-->
+                    <h1 class="content-header">HTML ID</h1>
+                    <ol class="detail-html" type="1">
+                        <li>The HTML ID attribute is used to specify an iD for an HTML element.</li>
+                        <li>Id attribute is unique which means, it can't being duplicated.</li>
+                        <li>The id attribute is often used to point to a class name in a style sheet.</li>
+                        <li>It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML id </h3>
+                        <img src="images/ex28.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML id with css </h3>
+                        <img src="images/ex28.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML id with javascript </h3>
+                        <img src="images/ex28.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="desc">
+                        <h2 class="desc-header">Notes of HTML id attribute</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML id</span>
+                                <p class="desc-tag-name">can be used in both CSS Style and Javascript</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML id</span>
+                                <p class="desc-tag-name">is unique so it can't be duplicated.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">HTML id</span>
+                                <p class="desc-tag-name">are called in javascipt using <q class="js-quot-class"> getElementById() </q></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">HTML bookmarks using ID and Links </h3>
+                        <img src="images/ex32.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML ID-->
+                <div class="hide html-iframe" id="16"><!-- HTML Iframes-->
+                    <h1 class="content-header">HTML iframes</h1>
+                    <ol class="detail-html" type="1">
+                        <li>HTML iframes are used to open webpage within another webpage.</li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    The most used attributes with iframes are:-
+                                    <dd>- src</dd>
+                                    <dd>- name</dd>
+                                    <dd>- title</dd>
+                                    <dd>- width</dd>
+                                    <dd>- height</dd>
+                                </dt>
+                            </dl>
+                        </li>
+                        <li>to remove the border over the iframe element you have to use style <q>border:none;</q> </li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML iframe </h3>
+                        <img src="images/ex33.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">using links with iframes </h3>
+                        <img src="images/ex34.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Iframes-->
+                <div class="hide html-styling-css" id="17"><!-- HTML Styling Css-->
+                    <h1 class="content-header">style css</h1>
+                    <ol class="detail-html" type="1">
+                        <li>css refers to cascading style sheets.</li>
+                        <li>css used to style the html elements.</li>
+                        <li>CSS is a computer language for laying out and structuring web pages (HTML or XML).</li>
+                    </ol>
+                    <div class="desc">
+                        <h2 class="desc-header">Types of CSS</h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">inline</span>
+                                <p class="desc-tag-name">CSS used as attribute within HTML element.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">internal</span>
+                                <p class="desc-tag-name">CSS used within the head element.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">external</span>
+                                <p class="desc-tag-name">uses .css file that out of the HTML file.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example inline css </h3>
+                        <img src="images/ex35.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example internal css </h3>
+                        <img src="images/ex36.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example external css </h3>
+                        <img src="images/ex37.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Styling Css-->
+                <div class="hide html-Javascript" id="18"><!-- HTML Javascript-->
+                    <h1 class="content-header">HTML with javascript</h1>
+                    <ol class="detail-html" type="1">
+                        <li>a script is a small program which is used with html webpage to be more attractive, dynamic, and interactive.</li>
+                        <li>the most scripting language is javascript</li>
+                        <li>javascript coding can be internal or external within he &lt;script&gt; tag.</li>
+                        <li>&lt;script&gt; tag can be placed inside the head tag or at the end of html tag.</li>
+                    </ol>
+                    <div class="desc">
+                        <h2 class="desc-header">Types of javascript </h2>
+                        <div class="desc-details">
+                            <div class="desc-detail">
+                                <span class="tag-name">internal</span>
+                                <p class="desc-tag-name">javascript can be used within the HTML file.</p>
+                            </div>
+                            <div class="desc-detail">
+                                <span class="tag-name">external</span>
+                                <p class="desc-tag-name">javascript can be used within an external file using the &lt;script&gt; tag and its attribute <q>src</q></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example internal javascript </h3>
+                        <img src="images/ex38.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example external javascript </h3>
+                        <img src="images/ex39.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Javascript-->
+                <div class="hide html-comments" id="19"><!-- HTML Comments-->
+                    <h1 class="content-header">HTML Comments</h1>
+                    <ol class="detail-html" type="1">
+                        <li>With comments you can place notifications and reminders in your HTML code.</li>
+                        <li>Comments can be used to hide content.</li>
+                        <li>This can be helpful if you hide content temporarily.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header"></h3>
+                        <img src="images/ex40.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Comments-->
+                <div class="hide html-head" id="20"><!-- HTML Head-->
+                    <h1 class="content-header">HTML Head</h1>
+                    <ol class="detail-html" type="1">
+                        <li>
+                            The HTML &lt;head&gt; element is a container for the following elements: &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script>, and &lt;base&gt;.
+                        </li>
+                        <li>The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.</li>
+                        <li>HTML metadata is data about the HTML document. Metadata is not displayed.</li>
+                        <li>Metadata typically define the document title, character set, styles, scripts, and other meta information.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Example of meta tag for character set</h3>
+                        <img src="images/ex41.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Example of meta tag for keywords used wih search engine</h3>
+                        <img src="images/ex42.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Example of meta tag for description of web page</h3>
+                        <img src="images/ex43.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Example of meta tag for the author of a page</h3>
+                        <img src="images/ex44.png" alt="html-code-example" class="img-ex">
+                    </div>
+                    <div class="ex-code">
+                        <h3 class="ex-header">Example of meta tag for Setting the viewport to make your website look good on all devices</h3>
+                        <img src="images/ex45.png" alt="html-code-example" class="img-ex">
+                    </div>
+                </div><!-- ./HTML Head-->
+
+                <div class="hide html-form" id=""><!-- HTML Form-->
+                    <h1 class="content-header">HTML Form</h1>
+                    <ol class="detail-html" type="1">
+                        <li>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</li>
+                    </ol>
+                    <div class="ex-code">
+                        <h3 class="ex-header">let's see a simple example oF HTML Form </h3>
+                        <div class="images-two-examples">
+                            <img src="images/ex26.png" alt="html-code-example" class="img-ex">
+                            <img src="images/ex27.png" alt="html-code-example" class="img-ex two-examples-img">
+                        </div>
+                        
+                    </div>
+                </div><!-- ./HTML Form-->
+            </div>
+        </div>
+    </div> <!-- ./Course Content-->
+    <div class="img-fullscreen-container hide-container">
+        <button id="close">X</button>
+        <img id="fullscreen-img" src="images/ex11.png" alt="">
+    </div>
+    <script src="js/htmlCourse_javascript.js"></script>
+</body>
+</html>
